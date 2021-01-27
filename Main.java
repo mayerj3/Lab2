@@ -24,6 +24,14 @@ class Main {
     // sum of all M&Ms
     double sum = blue + brown + green + orange + red + yellow;
     System.out.println("Sum: " + sum);
-    //
+    //if statements 
+    if ( blue > brown & green > red)
+     System.out.println
+     ("Blue over Brown and Green over Red");
+    if ( brown <= orange)
+     System.out.println("Brown is less than or equal to Orange");
+    if ( sum == total)
+    System.out.println("Numbers match");
+    //numbers match did not print because of a small difference in decimal
   }
 }
