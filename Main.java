@@ -8,18 +8,22 @@ class Main {
      total = mm * bag;
      System.out.println("Total M&M's is: " + total);
 
-    // Percent of M&Ms for each color
+    // Number of M&M where total * Percent of M&Ms for each color
     double blue = total * .24;
-    System.out.println("Number of blue's is: " + blue);
+    System.out.println("blue: " + blue);
     double brown = total * .13;
-    System.out.println("Num of brown's is: " + brown);
+    System.out.println("brown: " + brown);
     double green = total * .16;
-    System.out.println("Num of green's is: " + green);
+    System.out.println("green: " + green);
     double orange = total * .20;
-    System.out.println("Num of orange's is: " + orange);
+    System.out.println("orange: " + orange);
     double red = total * .13;
-    System.out.println("Num of red's is: " + red);
+    System.out.println("red: " + red);
     double yellow = total * .14;
-    System.out.println("Num of yellow's is: " + yellow);
+    System.out.println("yellow: " + yellow);
+    // sum of all M&Ms
+    double sum = blue + brown + green + orange + red + yellow;
+    System.out.println("Sum: " + sum);
+    //
   }
 }
